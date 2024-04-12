@@ -1,0 +1,14 @@
+# 忽略虚拟环境
+venv/
+
+# 忽略Python编译生成的文件
+__pycache__/
+*.pyc
+
+# 忽略IDE设置
+.vscode/
+.idea/
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
