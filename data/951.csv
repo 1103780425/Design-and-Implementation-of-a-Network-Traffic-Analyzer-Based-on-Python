@@ -1,0 +1,24 @@
+Category,Data,Description
+Summary,Count,Details
+Protocols Usage,,
+Ethernet,10,Protocol layer
+IP,10,Protocol layer
+UDP,2,Protocol layer
+Raw,9,Protocol layer
+TCP,8,Protocol layer
+Padding,1,Protocol layer
+Protocol Layers,,
+('Ethernet', 'IP', 'UDP', 'Raw'),2,Layer sequence
+('Ethernet', 'IP', 'TCP', 'Raw'),7,Layer sequence
+('Ethernet', 'IP', 'TCP', 'Padding'),1,Layer sequence
+Source IP Usage,,
+180.101.246.184,1,Source IPs
+10.77.74.168,7,Source IPs
+20.190.148.163,2,Source IPs
+Destination IP Usage,,
+10.77.74.168,3,Destination IPs
+180.101.246.184,1,Destination IPs
+20.190.148.163,6,Destination IPs
+TCP Flags Usage,,
+PA,3,TCP Flags
+A,5,TCP Flags

@@ -23,3 +23,8 @@ class TrafficMonitor:
         # Sum packet counts and check against the threshold
         if sum(count for _, count in self.packet_count) > self.threshold:
             print("Traffic anomaly detected! Possible DDoS attack.")
+        
+    def reset(self):
+        self.packet_count.clear()  # Clear all recorded packet counts
+        # 如果有其他状态需要重置，也应在这里处理
+

@@ -10,12 +10,13 @@ def main():
     print("Analyzing packets...")
     analyze_packets(packets)
 
-    monitor = TrafficMonitor(window_size=10, threshold=100)  # Customize as needed
+    monitor = TrafficMonitor(window_size=10, threshold=100)  # 根据需要定制 Customize as needed
 
     def handle_packet(packet):
         monitor.process_packet(packet)
 
-    sniff(prn=handle_packet)  # Use Scapy to capture and process packets
+    print("Starting real-time packet monitoring...")
+    sniff(prn=handle_packet, timeout=100)  # 使用 Scapy 捕捉和处理数据包 Use Scapy to capture and process packets
 
 if __name__ == "__main__":
     main()

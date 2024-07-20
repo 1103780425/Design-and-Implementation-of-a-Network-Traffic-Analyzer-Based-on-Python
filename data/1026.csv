@@ -1,0 +1,14 @@
+Protocol,Count,Type
+Ethernet,10,protocol
+IP,10,protocol
+TCP,10,protocol
+Raw,5,protocol
+222.192.186.76,5,source
+10.77.74.168,5,source
+10.77.74.168,5,destination
+222.192.186.76,3,destination
+52.168.112.66,1,destination
+192.168.200.17,1,destination
+PA,5
+A,4
+S,1
